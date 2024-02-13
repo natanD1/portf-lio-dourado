@@ -99,6 +99,12 @@ header.shadow{
   width: 65%;
 }
 
+.home-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
 .home-text span{
   font-size: var(--medium-font);
   font-weight: 500;
@@ -133,11 +139,14 @@ header.shadow{
   background: var(--main-color);
   color: #fff;
   padding: 0.8rem 1rem;
-  border-radius: 0.5rem;  
+  border-radius: 0.5rem;
+  width: fit-content;
 }
+
 .btn:hover{
   background: var(--hover);
 }
+
 .scroll-down{
   position: absolute;
   bottom: 4rem;
@@ -165,7 +174,7 @@ header.shadow{
 .about-container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 1.5rem;
   margin-top: 2rem;
 }
 
@@ -174,10 +183,11 @@ header.shadow{
   border-radius: 0.5rem;
 }
 .about-text p{
-  font-size: var(--p-font);
+  font-size: 1.2rem;
   font-weight: 400;
   text-align: justify;
 }
+
 .information{
   margin: 1rem 0 1.4rem;
 }
